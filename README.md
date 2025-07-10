@@ -17,9 +17,13 @@ Selected_Directory/
 ├── PDF/
 │   ├── 2024-01/
 │   └── 2024-02/
+
+
 ├── Images/
 │   ├── 2024-01/
 │   └── 2024-02/
+
+
 └── Documents/
     ├── 2024-01/
     └── 2024-02/
@@ -29,11 +33,13 @@ File Movement: Moves files to appropriate folders based on type and date
 Installation
 
 Clone this repository:
-bashgit clone https://github.com/yourusername/file-organizer.git
-cd file-organizer
+bash
+git clone https://github.com/SCsince2005/FileOrganizerScript
+cd FileOrganizerScript
 
 Run the script:
-bashpython file_organizer.py
+bash
+python fileOrganizerScript.py
 
 
 Requirements
@@ -43,7 +49,8 @@ tkinter (usually comes with Python)
 No additional dependencies required!
 
 Usage
-bashpython file_organizer.py
+bash
+python file_organizer.py
 
 A dialog box will appear asking you to select a folder
 Choose the directory you want to organize
